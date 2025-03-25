@@ -1,3 +1,7 @@
+<div align="right">
+  <img src="https://komarev.com/ghpvc/?username=tasuku43" />
+</div>
+
 # 👋 Hello, I'm Tasuku Yamashita
 
 **Software Engineer | Japan**

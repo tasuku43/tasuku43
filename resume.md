@@ -1,0 +1,163 @@
+# 基本情報
+
+- 氏名: 山下 祐
+- 性別: 男
+- 生年: 1992
+- SNS:
+  - [GitHub](https://github.com/tasuku43)
+  - [X](https://x.com/task2021)
+  - [Zenn](https://zenn.dev/tasteck)
+
+# 職務要約
+
+2019年にソフトウェアエンジニアとしてキャリアをスタートし、PHP部での経験を基盤にインフラやフロントエンド領域にも取り組み、スキルを広げてきました。
+
+現在は認証チームに所属し、PdMやデザイナーを含むチームメンバーと密に協力しながら、認証ドメインに特化したシステムの要件定義から設計、実装、運用までを担当しています。
+
+直近では、「システム全体の可用性向上を目的としたKubernetes Deploymentの分割対応」「バリューストリームマップの作成」「開発パフォーマンスメトリクスの計測・可視化」など、改善活動に積極的に取り組んでいます。
+
+今後は、基盤技術やクラウドネイティブ技術をさらに深め、バリューストリーム全体を俯瞰し、改善活動が自然に推進される文化を醸成できるエンジニアを目指して、組織全体の成長に貢献していきたいと考えています。
+
+# 職務経歴
+
+## 株式会社kubell(旧Chatwork株式会社): 2019年12月 ~ 現在
+
+### (予定)SREグループ(2025年4月 ~ )
+
+### 認証チーム (2023年6月 ~ 現在)
+
+- 役割
+    - 認証ドメインに特化した職能横断型チームに所属し、PdM、デザイナー、エンジニアと協働。要件定義から設計、実装、運用まで一貫して担当。
+    - バックエンド、フロントエンド、インフラ領域を跨いで開発・保守に対応。
+- 主な実績
+    - 開発パフォーマンスの継続的改善活動を推進
+        - バリューストリームマップの作成を主導し、チームの開発プロセスを視覚化し、課題の発見からリリース、運用までの流れを明確化。
+        - 開発パフォーマンスメトリクスの定義と、継続的な改善プロセスの提案を実施。
+    - システム全体の可用性向上を目的としたKubernetes Deploymentの分割対応
+        - 認証エンドポイントの不調がシステム全体に影響を与える課題を解消するため、KubernetesのDeploymentを分割。
+        - 認証エンドポイントがALBから認証専用のServiceおよびDeploymentに流れるように設定を変更。
+        - マニフェストリポジトリをリファクタリングし、他のチームも数行の変更で同様の対応が可能になるように整備。
+
+### モバイル管理画面チーム (2022年10月 ~ 2023年6月)
+
+- 役割
+    - 管理機能に特化した職能横断型チームに所属し、PdM、デザイナー、エンジニアと協働。要件定義から設計、実装、運用まで一貫して担当。
+    - バックエンド、フロントエンド、インフラ領域を跨いで開発・保守に対応。
+- 主な実績：
+    - バックエンドの実装基盤の構築
+        - 社内独自フレームワーク上にミニフレームワークを構築し、モダンなフレームワークに近い開発基盤を実現。
+        - ヘキサゴナルアーキテクチャを導入し、既存コードへの依存を外部アダプターに集約して依存関係を管理。
+        - OSSフレームワークを参考に、PHPプロセス内でエンドポイント単位の自動テストを実行可能なテスト基盤を整備。
+        - OpenAPIスキーマからControllerの雛形コードを自動生成するツールを開発し、クラス名やパッケージ名の一貫性を確保し、開発効率を向上。
+
+### PHP部 (2019年12月 ~ 2022年10月)
+
+- 役割
+    - プロジェクト単位でアサインされ、複数の開発案件に従事
+- 主な実績
+    - PHP7.3 → PHP8.0へのバージョンアップ対応
+        - Dockerイメージの作成およびTerraformを用いたECRリポジトリの構築。
+        - PHP7.3とPHP8.0で並行テストが行えるよう、CircleCIに設定変更を加え、CIパイプラインを改善。
+    - 静的解析ツールの提案・導入
+        - リリース11年目のPHPアプリケーションにPHPStan(静的解析ツール)を導入し、コード品質を向上。
+        - ブログ記事:  [リリースして11年経過したPHPアプリケーションにPHPStanを導入した - kubell Creator's Note](https://creators-note.chatwork.com/entry/2022/05/24/084828)
+        - 得られた知見を元に[PHP Conference Japan 2022](https://phpcon.php.gr.jp/2022/)に登壇
+
+## NECフィールディング株式会社: 2016年4月 ~ 2019年11月
+
+カスタマーエンジニアとして、サーバやPCなどのハードウェア修理作業を担当
+
+# スキル
+
+## プログラミング言語
+
+- PHP：実務経験は5年です。バージョンアップ対応やリファクタリング、コード品質向上のための活動（例：静的解析ツール導入, テスト基盤の構築, CIの整備）をリードしてきました。趣味でいくつかのOSSライブラリを開発しています。
+- TypeScript：実務経験は2年です。ReactやNext.jsを使用したシングルページアプリケーション（SPA）開発に従事しています。
+- Go：実務経験はありませんが、学習の一環として「有名OSSのクローン」や「DNS Forwarder」「reverse proxy」などを作成しました。
+	- [tasuku43/learn-ds-go](https://github.com/tasuku43/learn-ds-go)
+	- [tasuku43/build-own-network-stack-go](https://github.com/tasuku43/build-own-network-stack-go)
+	- [tasuku43/pal: A custom OCI runtime implementation aiming to explore containerization concepts and build a lightweight, efficient runtime from scratch.](https://github.com/tasuku43/pal)
+    - [tasuku43/go-learn-projects-hub](https://github.com/tasuku43/go-learn-projects-hub)
+    - [tasuku43/codecrafters-dns-server-go](https://github.com/tasuku43/codecrafters-dns-server-go)
+    - [tasuku43/codecrafters-docker-go](https://github.com/tasuku43/codecrafters-docker-go)
+    - [tasuku43/codecrafters-git-go](https://github.com/tasuku43/codecrafters-git-go)
+- Scala：実務経験はありませんが、学習の一環としてPHPで作成したPlantUMLのパーサーを再実装しました。
+    - [tasuku43/PumlParserScala](https://github.com/tasuku43/PumlParserScala)
+
+## クラウド・インフラ
+
+- AWS：日常的に使用していたサービスは以下の通りです。
+    - Lambda, ECR, DynamoDB, Billing and Cost Management, CloudFront, SQS, S3, Athena
+- Kubernetes：基礎的な理解と操作が可能です。具体的なスキルレベルは以下の通りです
+    - Kubernetesのリソース（Pod、Service、ConfigMap、Deploymentなど）の概念を把握しており、設定ファイルを読み解くことができます。
+    - 社内のマニフェストリポジトリを読み解き、必要に応じてカスタマイズするスキルがあります（ただし、新規のサービス構築や複雑なChart作成経験は未経験です）。
+    - Argo CDを使ったGitOpsを経験しています(フロー構築は未経験です)。コードリポジトリでのDockerイメージのビルドからArgo CDでのSyncまでの流れをシーケンス図にまとめ、社内で共有した経験があります。
+- Terraform：日常業務で利用しています。CIツールとしてAtlantisが導入されており、apply時の障害を避けるためにConftestを導入し、ポリシーを追加した経験があります。
+
+## CI/CD・自動化ツール
+
+- CircleCI
+- GitHub Actions
+
+## 開発プロセス・チーム貢献
+
+- 開発プロセスの視覚化やボトルネックの特定を目的として、バリューストリームマップの作成経験があります。
+- 開発パフォーマンスメトリクスの計測を主導した経験があります。
+
+## 監視
+
+- DataDog
+
+# 登壇実績
+## [PHP Conference Japan 2024](https://phpcon.php.gr.jp/2024/)
+
+- GitHub Actions実行時のボトルネックを調査していた際、Xdebug Profileを使用した知見について発表しました。
+- プロポーサル: [Xdebug Profileを使ったCIのパフォーマンス改善に向けたボトルネック解析  | PHP Conference Japan 2024](https://fortee.jp/phpcon-2024/proposal/84949218-e55f-4f0e-9598-27359a395ed4)
+
+## [PHP Conference Japan 2022](https://phpcon.php.gr.jp/2022/)
+
+- youtube: [PHP Conference Japan 2022: リリースして11年経過したPHPアプリケーションにPHPStanを導入した](https://www.youtube.com/watch?v=NTw0gxIAYNw)
+- スライド: [php-conference-japan-2022 - Speaker Deck](https://speakerdeck.com/tasuku43/php-conference-japan-2022)
+
+
+# OSS活動
+
+## [php-mermaid-class-diagram](https://github.com/tasuku43/php-mermaid-class-diagram)
+
+PHPコードからMermaid-jsクラス図を生成するツールです。以下は自分が関わっているプロジェクトではありませんが、Readmeにクラス図を載せるために利用されています。
+[MyIntervals/PHP-CSS-Parser: A Parser for CSS Files written in PHP. Allows extraction of CSS files into a data structure, manipulation of said structure and output as (optimized) CSS](https://github.com/MyIntervals/PHP-CSS-Parser)
+
+紹介記事: [[PHP]コードからmermaidjsのクラス図を自動生成するツールを作りました](https://zenn.dev/tasteck/articles/41e0fbd5f6888f)
+
+## [puml-parser-php](https://github.com/tasuku43/puml-parser-php)
+
+PlantUMLファイルからクラス定義のAST（抽象構文木）を構築するツールです。PlantUMLファイルからクラスファイルを自動生成するツールを作成する為に作成しました。
+
+紹介記事: [[PHP]PlantUMLで定義されたクラス図からコードを自動生成するツールを作成しました](https://zenn.dev/tasteck/articles/e81cd61339dc69)
+
+## [har2sequence](https://github.com/tasuku43/har2sequence)
+
+HTTPアーカイブ（HAR）ファイルをMermaid.jsのシーケンス図に変換するツールです。主に認証チームに新メンバーが加わった際、OIDCを採用した認証フローのキャッチアップを容易にすることを目的として作成しました。
+
+紹介記事: [HARファイルをシーケンス図に変換するツールを作成しました](https://zenn.dev/tasteck/articles/cf8ee8a532ebaa)
+
+# 自己PR
+
+自動化や仕組み化を基盤に、コストに対して高い効果が見込める課題に取り組むことを重視しています。日々、改善の余地がある課題や効果が期待できるポイントを見つけ出し、業務に反映するよう努めています。
+
+2019年12月にソフトウェアエンジニアとしてのキャリアをスタートして以来、オブジェクト指向設計やドメイン駆動設計に興味を持つようになり、そこからさらにアジャイルテスティング、CI/CD、継続的デリバリーへと関心が広がりました。特に「LeanとDevOpsの科学」を読んでからは、開発フローをいかに高速で回すかが重要であると実感し、直近では、継続的改善を促進する仕組みを整えることに、意欲を持って取り組んでいます。
+
+# 今後のキャリアプラン
+
+私が中長期的に目指しているのは、**バリューストリーム全体を俯瞰し、開発プロセスの改善を継続的に推進できる人材**になることです。チームが自発的に課題を特定し、改善を実行・計測しながら循環できる文化を育てる役割を担いたいと考えています。
+
+これまで、バックエンドやフロントエンド、インフラなど幅広い技術領域を経験してきましたが、個々の技術力をさらに深める必要性を感じています。特に、Linuxやミドルウェア、インフラ設計など**基盤となる技術**を強化し、より大きな武器にしていきたいと思っています。
+
+こうした背景を踏まえ、短期戦略と中期戦略を次のように設定しました。
+
+- **短期戦略: 技術スキルの深化**
+    - 自動化や効率化を促進できる技術を、実務を通じて着実に高めていきます。具体的には、Linuxやミドルウェア、インフラ設計の知識をさらに掘り下げ、アプリケーションのパフォーマンスや可用性を支える土台を強化することを目指します。また、DockerやKubernetesといったクラウドネイティブ技術にも注力し、CI/CDパイプラインや監視体制を整備・改善することで、**開発と運用のスピードや品質**の向上に貢献したいと考えています。
+- **中期戦略: 改善活動が根付く文化の醸成**
+    - チーム全体で継続的な改善活動が自然に回り続けるための**枠組みづくり**に取り組みます。リーンシンキングやDevOpsの考え方を実際の開発プロセスに組み込み、フィードバックループを短縮しながら課題を可視化・解消できる仕組みを整備していきたいです。最終的には、メンバーが自律的に課題を見つけ出し、改善を進められる文化を育むことを目指しています。
+
+まずは近い目標として、テクニカルスキルをより深め、しっかりとした技術基盤を築くことに集中します。そのうえで、培った基盤を活かしながらバリューストリーム全体を俯瞰し、継続的な改善活動を推進できる人材へと成長していきたいと考えています。

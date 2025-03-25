@@ -13,6 +13,5 @@ I specialize in backend development with a strong foundation in PHP and have exp
 ## 📈 GitHub Stats
 
 <p align="left">
-  <img alt="GitHub Stats" height="170px" src="https://github-readme-stats.vercel.app/api?username=tasuku43&theme=vue-dark&show_icons=true" />
   <img alt="Top Languages" height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tasuku43&theme=vue-dark&layout=compact" />
 </p>

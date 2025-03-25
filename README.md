@@ -1,16 +1,18 @@
-## Hi there 👋
+# 👋 Hello, I'm Tasuku Yamashita
 
-<!--
-**tasuku43/tasuku43** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Software Engineer | Japan**
 
-Here are some ideas to get you started:
+I specialize in backend development with a strong foundation in PHP and have expanded my expertise to infrastructure and frontend technologies. Passionate about enhancing system reliability and development performance.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Skills
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=php,go,typescript,docker,kubernetes,aws,terraform" />
+</p>
+
+## 📈 GitHub Stats
+
+<p align="left">
+  <img alt="GitHub Stats" height="170px" src="https://github-readme-stats.vercel.app/api?username=tasuku43&theme=vue-dark&show_icons=true" />
+  <img alt="Top Languages" height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tasuku43&theme=vue-dark&layout=compact" />
+</p>

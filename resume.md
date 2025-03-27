@@ -113,6 +113,7 @@
 
 - GitHub Actions実行時のボトルネックを調査していた際、Xdebug Profileを使用した知見について発表しました。
 - プロポーサル: [Xdebug Profileを使ったCIのパフォーマンス改善に向けたボトルネック解析  | PHP Conference Japan 2024](https://fortee.jp/phpcon-2024/proposal/84949218-e55f-4f0e-9598-27359a395ed4)
+- スライド: [php-conference-japan-2024 - Speaker Deck](https://speakerdeck.com/tasuku43/php-conference-japan-2024)
 
 ## [PHP Conference Japan 2022](https://phpcon.php.gr.jp/2022/)
 

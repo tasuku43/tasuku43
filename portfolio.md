@@ -1,7 +1,7 @@
 # 📁 ポートフォリオ
 
-> [!NOTE]  
-> 職務経歴書は[resume.md](./resume.md)をご覧ください
+> [!TIP]  
+> 職務経歴やスキルの概要については、[resume.md](./resume.md)にてご紹介しております。
 
 ## 🎤 登壇実績
 ### [PHP Conference Japan 2024](https://phpcon.php.gr.jp/2024/)

@@ -1,7 +1,7 @@
 # 📄 職務経歴書
 
-> [!NOTE]  
-> ポートフォリオは[portfolio.md](./portfolio.md)をご覧ください
+> [!TIP]  
+> 実績や成果物については[portfolio.md](./portfolio.md)にて詳しくご紹介しています。
 
 ## 👤 基本情報
 
@@ -80,6 +80,9 @@
 - TypeScript（2年）: ReactおよびNext.jsを用いたシングルページアプリケーション（SPA）の開発に従事。
 - Go（非業務）: 学習の一環として、有名OSSのクローンやDNSフォワーダ、リバースプロキシなどを実装。
 - Scala（非業務）: 学習の一環として、PHPで実装したPlantUMLパーサーをScalaで再実装。
+
+> [!TIP]
+> 上記のスキルを活かした具体的な成果物は[portfolio.md](./portfolio.md)に詳しく記載しています。
 
 ### クラウド・インフラ
 

@@ -1,4 +1,9 @@
-# 👤 基本情報
+# 📄 職務経歴書
+
+> [!NOTE]  
+> 実績の詳細は[portfolio.md](./portfolio.md)をご覧ください
+
+## 👤 基本情報
 
 - 氏名: 山下 祐
 - 性別: 男
@@ -8,9 +13,7 @@
   - [X](https://x.com/task2021)
   - [Zenn](https://zenn.dev/tasteck)
 
----
-
-# 📄 職務要約
+## 📝 職務要約
 
 2019年にソフトウェアエンジニアとしてキャリアをスタートし、PHP部での経験を基盤にインフラやフロントエンド領域にも取り組み、スキルを広げてきました。
 
@@ -20,15 +23,13 @@
 
 今後は、基盤技術やクラウドネイティブ技術をさらに深め、バリューストリーム全体を俯瞰し、改善活動が自然に推進される文化を醸成できるエンジニアを目指して、組織全体の成長に貢献していきたいと考えています。
 
----
+## 💼 職務経歴
 
-# 💻 職務経歴
+### 株式会社kubell(旧Chatwork株式会社): 2019年12月 ~ 現在
 
-## 株式会社kubell(旧Chatwork株式会社): 2019年12月 ~ 現在
+#### (予定)SREグループ(2025年4月 ~ )
 
-### (予定)SREグループ(2025年4月 ~ )
-
-### 認証チーム (2023年6月 ~ 現在)
+#### 認証チーム (2023年6月 ~ 現在)
 
 - 役割
     - 認証ドメインに特化した職能横断型チームに所属し、PdM、デザイナー、エンジニアと協働。要件定義から設計、実装、運用まで一貫して担当。
@@ -42,7 +43,7 @@
         - 認証エンドポイントがALBから認証専用のServiceおよびDeploymentに流れるように設定を変更。
         - マニフェストリポジトリをリファクタリングし、他のチームも数行の変更で同様の対応が可能になるように整備。
 
-### モバイル管理画面チーム (2022年10月 ~ 2023年6月)
+#### モバイル管理画面チーム (2022年10月 ~ 2023年6月)
 
 - 役割
     - 管理機能に特化した職能横断型チームに所属し、PdM、デザイナー、エンジニアと協働。要件定義から設計、実装、運用まで一貫して担当。
@@ -54,7 +55,7 @@
         - OSSフレームワークを参考に、PHPプロセス内でエンドポイント単位の自動テストを実行可能なテスト基盤を整備。
         - OpenAPIスキーマからControllerの雛形コードを自動生成するツールを開発し、クラス名やパッケージ名の一貫性を確保し、開発効率を向上。
 
-### PHP部 (2019年12月 ~ 2022年10月)
+#### PHP部 (2019年12月 ~ 2022年10月)
 
 - 役割
     - プロジェクト単位でアサインされ、複数の開発案件に従事
@@ -67,30 +68,20 @@
         - ブログ記事:  [リリースして11年経過したPHPアプリケーションにPHPStanを導入した - kubell Creator's Note](https://creators-note.chatwork.com/entry/2022/05/24/084828)
         - 得られた知見を元に[PHP Conference Japan 2022](https://phpcon.php.gr.jp/2022/)に登壇
 
-## NECフィールディング株式会社: 2016年4月 ~ 2019年11月
+### NECフィールディング株式会社: 2016年4月 ~ 2019年11月
 
 カスタマーエンジニアとして、サーバやPCなどのハードウェア修理作業を担当
 
----
+## 🛠️ スキル
 
-# 🛠️ スキル
+### プログラミング言語
 
-## プログラミング言語
+- PHP（5年）: バージョンアップ対応、リファクタリング、コード品質向上のための施策（静的解析ツールの導入、テスト基盤の構築、CI整備）を主導。個人開発として複数のOSSライブラリも公開。
+- TypeScript（2年）: ReactおよびNext.jsを用いたシングルページアプリケーション（SPA）の開発に従事。
+- Go（非業務）: 学習の一環として、有名OSSのクローンやDNSフォワーダ、リバースプロキシなどを実装。
+- Scala（非業務）: 学習の一環として、PHPで実装したPlantUMLパーサーをScalaで再実装。
 
-- PHP：実務経験は5年です。バージョンアップ対応やリファクタリング、コード品質向上のための活動（例：静的解析ツール導入, テスト基盤の構築, CIの整備）をリードしてきました。趣味でいくつかのOSSライブラリを開発しています。
-- TypeScript：実務経験は2年です。ReactやNext.jsを使用したシングルページアプリケーション（SPA）開発に従事しています。
-- Go：実務経験はありませんが、学習の一環として「有名OSSのクローン」や「DNS Forwarder」「reverse proxy」などを作成しました。
-	- [tasuku43/learn-ds-go](https://github.com/tasuku43/learn-ds-go)
-	- [tasuku43/build-own-network-stack-go](https://github.com/tasuku43/build-own-network-stack-go)
-	- [tasuku43/pal: A custom OCI runtime implementation aiming to explore containerization concepts and build a lightweight, efficient runtime from scratch.](https://github.com/tasuku43/pal)
-    - [tasuku43/go-learn-projects-hub](https://github.com/tasuku43/go-learn-projects-hub)
-    - [tasuku43/codecrafters-dns-server-go](https://github.com/tasuku43/codecrafters-dns-server-go)
-    - [tasuku43/codecrafters-docker-go](https://github.com/tasuku43/codecrafters-docker-go)
-    - [tasuku43/codecrafters-git-go](https://github.com/tasuku43/codecrafters-git-go)
-- Scala：実務経験はありませんが、学習の一環としてPHPで作成したPlantUMLのパーサーを再実装しました。
-    - [tasuku43/PumlParserScala](https://github.com/tasuku43/PumlParserScala)
-
-## クラウド・インフラ
+### クラウド・インフラ
 
 - AWS：日常的に使用していたサービスは以下の通りです。
     - Lambda, ECR, DynamoDB, Billing and Cost Management, CloudFront, SQS, S3, Athena
@@ -100,68 +91,27 @@
     - Argo CDを使ったGitOpsを経験しています(フロー構築は未経験です)。コードリポジトリでのDockerイメージのビルドからArgo CDでのSyncまでの流れをシーケンス図にまとめ、社内で共有した経験があります。
 - Terraform：日常業務で利用しています。CIツールとしてAtlantisが導入されており、apply時の障害を避けるためにConftestを導入し、ポリシーを追加した経験があります。
 
-## CI/CD・自動化ツール
+### CI/CD・自動化ツール
 
 - CircleCI
 - GitHub Actions
 
-## 開発プロセス・チーム貢献
+### 開発プロセス・チーム貢献
 
 - 開発プロセスの視覚化やボトルネックの特定を目的として、バリューストリームマップの作成経験があります。
 - 開発パフォーマンスメトリクスの計測を主導した経験があります。
 
-## 監視
+### 監視
 
 - DataDog
 
----
-
-# 🎤 登壇実績
-## [PHP Conference Japan 2024](https://phpcon.php.gr.jp/2024/)
-
-- GitHub Actions実行時のボトルネックを調査していた際、Xdebug Profileを使用した知見について発表しました。
-- プロポーサル: [Xdebug Profileを使ったCIのパフォーマンス改善に向けたボトルネック解析  | PHP Conference Japan 2024](https://fortee.jp/phpcon-2024/proposal/84949218-e55f-4f0e-9598-27359a395ed4)
-- スライド: [php-conference-japan-2024 - Speaker Deck](https://speakerdeck.com/tasuku43/php-conference-japan-2024)
-
-## [PHP Conference Japan 2022](https://phpcon.php.gr.jp/2022/)
-
-- youtube: [PHP Conference Japan 2022: リリースして11年経過したPHPアプリケーションにPHPStanを導入した](https://www.youtube.com/watch?v=NTw0gxIAYNw)
-- スライド: [php-conference-japan-2022 - Speaker Deck](https://speakerdeck.com/tasuku43/php-conference-japan-2022)
-
----
-
-# 👨‍💻 OSS活動
-
-## [php-mermaid-class-diagram](https://github.com/tasuku43/php-mermaid-class-diagram)
-
-PHPコードからMermaid-jsクラス図を生成するツールです。以下は自分が関わっているプロジェクトではありませんが、Readmeにクラス図を載せるために利用されています。
-[MyIntervals/PHP-CSS-Parser: A Parser for CSS Files written in PHP. Allows extraction of CSS files into a data structure, manipulation of said structure and output as (optimized) CSS](https://github.com/MyIntervals/PHP-CSS-Parser)
-
-紹介記事: [[PHP]コードからmermaidjsのクラス図を自動生成するツールを作りました](https://zenn.dev/tasteck/articles/41e0fbd5f6888f)
-
-## [puml-parser-php](https://github.com/tasuku43/puml-parser-php)
-
-PlantUMLファイルからクラス定義のAST（抽象構文木）を構築するツールです。PlantUMLファイルからクラスファイルを自動生成するツールを作成する為に作成しました。
-
-紹介記事: [[PHP]PlantUMLで定義されたクラス図からコードを自動生成するツールを作成しました](https://zenn.dev/tasteck/articles/e81cd61339dc69)
-
-## [har2sequence](https://github.com/tasuku43/har2sequence)
-
-HTTPアーカイブ（HAR）ファイルをMermaid.jsのシーケンス図に変換するツールです。主に認証チームに新メンバーが加わった際、OIDCを採用した認証フローのキャッチアップを容易にすることを目的として作成しました。
-
-紹介記事: [HARファイルをシーケンス図に変換するツールを作成しました](https://zenn.dev/tasteck/articles/cf8ee8a532ebaa)
-
----
-
-# 💬 自己PR
+## 💬 自己PR
 
 自動化や仕組み化を基盤に、コストに対して高い効果が見込める課題に取り組むことを重視しています。日々、改善の余地がある課題や効果が期待できるポイントを見つけ出し、業務に反映するよう努めています。
 
 2019年12月にソフトウェアエンジニアとしてのキャリアをスタートして以来、オブジェクト指向設計やドメイン駆動設計に興味を持つようになり、そこからさらにアジャイルテスティング、CI/CD、継続的デリバリーへと関心が広がりました。特に「LeanとDevOpsの科学」を読んでからは、開発フローをいかに高速で回すかが重要であると実感し、直近では、継続的改善を促進する仕組みを整えることに、意欲を持って取り組んでいます。
 
----
-
-# 🚀 今後のキャリアプラン
+## 🚀 今後のキャリアプラン
 
 私が中長期的に目指しているのは、**バリューストリーム全体を俯瞰し、開発プロセスの改善を継続的に推進できる人材**になることです。チームが自発的に課題を特定し、改善を実行・計測しながら循環できる文化を育てる役割を担いたいと考えています。
 

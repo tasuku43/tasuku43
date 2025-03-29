@@ -1,7 +1,7 @@
 # 📄 職務経歴書
 
 > [!NOTE]  
-> 実績の詳細は[portfolio.md](./portfolio.md)をご覧ください
+> ポートフォリオは[portfolio.md](./portfolio.md)をご覧ください
 
 ## 👤 基本情報
 

@@ -74,26 +74,75 @@ HTTPアーカイブ（HAR）ファイルからMermaid.jsのシーケンス図を
 
 ## 🔎 学習プロジェクト
 
-### Go
-- [learn-ds-go](https://github.com/tasuku43/learn-ds-go)
-- [build-own-network-stack-go](https://github.com/tasuku43/build-own-network-stack-go)
-- [pal (OCI runtime)](https://github.com/tasuku43/pal)
-- [go-learn-projects-hub](https://github.com/tasuku43/go-learn-projects-hub)
-- [codecrafters-dns-server-go](https://github.com/tasuku43/codecrafters-dns-server-go)
-- [codecrafters-docker-go](https://github.com/tasuku43/codecrafters-docker-go)
-- [codecrafters-git-go](https://github.com/tasuku43/codecrafters-git-go)
+### 💻 低レイヤー技術への探求
 
-### Scala
-- [PumlParserScala](https://github.com/tasuku43/PumlParserScala)
+#### [build-own-network-stack-go](https://github.com/tasuku43/build-own-network-stack-go)  
 
-### PHP
-- [oil](https://github.com/tasuku43/oil)
-- [toy-or-maper](https://github.com/tasuku43/toy-or-maper)
-- [toy-container](https://github.com/tasuku43/toy-container)
+**概要**: TCP/IPネットワークスタックをGoで実装するプロジェクト。  
+**目的**: ネットワークプロトコルの動作原理を深く理解するため。OSが抽象化しているネットワークスタックが何を抽象化しているのかの理解を深めるため  
+**学習ポイント**:
+- TCP/IPプロトコルの動作原理(ソケットの作成、バインド、リッスン、接続受け入れの一連の流れ)
+- Goのネットワークライブラリの使い方
+
+<br>
+
+#### [pal](https://github.com/tasuku43/pal)
+
+**概要**: OCI仕様に準拠したコンテナランタイムの自作実装  
+**目的**: コンテナ技術の基盤となる概念と実装詳細を理解する。実装を通してコンテナの支えるLinuxの技術について理解を深めるため。  
+**学習ポイント**:
+- OCIバンドルとは何か・構成・役割
+- コンテナを支えるLinuxの技術
+
+**実装済みの機能**
+- OCIバンドルの読み込み・config.jsonのパース
+- ファイルシステムの隔離(mount namespace と pivot_root を利用した bundle/rootfs のルートファイルシステム化)
+- プロセスIDの隔離
+
+<br>
+
+#### [dns-hierarchy-docker](https://github.com/tasuku43/dns-hierarchy-docker)
+
+> A complete DNS server hierarchy running in Docker, featuring a root name server, TLD name server, second-level domain server, third-level domain server, a full resolver, and a client for DNS queries.
+
+**概要**: DNSの完全な階層構造をDocker上に再現したプロジェクト  
+**目的**: DNSの名前解決の仕組みを実践的に理解する  
+**学習ポイント**:
+- ルートサーバー、TLDサーバー、各レベルの権威DNSサーバーの連携
+- DNSの名前解決プロセスの理解(ゾーンの概念、リゾルバーの役割)
+
+<br>
+
+### 🧮 データ構造とアルゴリズム
+
+### [tasuku43/learn-ds-go](https://github.com/tasuku43/learn-ds-go)
+
+> learn-ds-go is a personal project focused on implementing various data structures using the Go programming language. This repository serves as a platform for my own learning and exploration, and is not intended for use as a library in other projects.
+
+**概要**: 様々なデータ構造をGoで実装するプロジェクト  
+**目的**: アルゴリズムとデータ構造の理解を深めるため  
+**学習ポイント**:  
+- 基本的なデータ構造と、アルゴリズムの違いによる性能差をベンチマークテストを通して理解する
+
+**現時点での実装済みのデータ構造(進行中)**  
+- Hash Table
+    - Separate Chaining
+    - Open Addressing
+    - Robin Hood Hashing
+- Stack
+- Queue
+
+<br>
 
 ### その他
-- [tasuku43/dns-hierarchy-docker: A complete DNS server hierarchy running in Docker, featuring a root name server, TLD name server, and authoritative DNS using BIND9.](https://github.com/tasuku43/dns-hierarchy-docker)
-- [tasuku43/aws-network-server-terraform-handson](https://github.com/tasuku43/aws-network-server-terraform-handson)
 
-## ✍️ 執筆
-- TBD
+#### [tasuku43/oil](https://github.com/tasuku43/oil)
+
+**概要**: PHPによる軽量WEBフレームワークの自作  
+**目的**: フレームワークの内部動作原理を理解し、設計力を向上させる  
+**学習ポイント**:
+- DIコンテナの設計と実装
+- ルーティングの実装
+- ミドルウェアの実装
+- O/Rマッパーの実装
+**紹介記事**: [PHP8でフレームワークを作ってみた](https://zenn.dev/tasteck/articles/f8995584904959)

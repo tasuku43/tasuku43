@@ -1,7 +1,7 @@
 # 📄 職務経歴書
 
 > [!TIP]  
-> 実績や成果物については[portfolio.md](./portfolio.md)にて詳しくご紹介しています。
+> 実績や成果物については [portfolio.md](./portfolio.md) にてご紹介しています。  
 
 ## 👤 基本情報
 

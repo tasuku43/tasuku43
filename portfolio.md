@@ -31,8 +31,9 @@ Chatworkの11年もののPHPコードベースにPHPStanを導入し、型エラ
 
 ### [tasuku43/php-mermaid-class-diagram](https://github.com/tasuku43/php-mermaid-class-diagram)
 
-![GitHub forks](https://img.shields.io/github/stars/tasuku43/php-mermaid-class-diagram)
-![GitHub forks](https://img.shields.io/github/forks/tasuku43/php-mermaid-class-diagram)
+![GitHub stars](https://img.shields.io/github/stars/tasuku43/php-mermaid-class-diagram?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/tasuku43/php-mermaid-class-diagram?style=flat-square)
+![Packagist Downloads](https://img.shields.io/packagist/dt/tasuku43/mermaid-class-diagram?style=flat-square)
 
 > Generate Mermaid-js class diagram from php code.  
 > This tool focuses on the relationships between classes and omits the details of class internals at this stage.
@@ -45,8 +46,9 @@ PHPコードからMermaid.jsのクラス図を生成するツール。自身の�
 
 ### [tasuku43/puml-parser-php](https://github.com/tasuku43/puml-parser-php)
 
-![GitHub forks](https://img.shields.io/github/stars/tasuku43/puml-parser-php)
-![GitHub forks](https://img.shields.io/github/forks/tasuku43/puml-parser-php)
+![GitHub stars](https://img.shields.io/github/stars/tasuku43/puml-parser-php?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/tasuku43/puml-parser-php?style=flat-square)
+![Packagist Downloads](https://img.shields.io/packagist/dt/puml2php/puml-parser?style=flat-square)
 
 > This package builds AST of class definitions from plantuml files. This package works only with php.
 
@@ -58,8 +60,9 @@ PlantUMLからASTを構築するライブラリ。PlantUMLからPHPコードを�
 
 ### [tasuku43/dependency-analyzer](https://github.com/tasuku43/dependency-analyzer)
 
-![GitHub forks](https://img.shields.io/github/stars/tasuku43/dependency-analyzer)
-![GitHub forks](https://img.shields.io/github/forks/tasuku43/dependency-analyzer)
+![GitHub stars](https://img.shields.io/github/stars/tasuku43/dependency-analyzer?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/tasuku43/dependency-analyzer?style=flat-square)
+![Packagist Downloads](https://img.shields.io/packagist/dt/tasuku43/dependency-analyzer?style=flat-square)
 
 > Analyze dependencies on specific classes.We hope this will be useful for major version upgrades of dependent libraries. For example, if you know that there is a disruptive change in a particular class, you can immediately see which classes in your project are affected. Combined with a library upgrade tool such as dependebot, it is also possible to comment the affected classes in the generated PR.
 
@@ -71,8 +74,8 @@ PlantUMLからASTを構築するライブラリ。PlantUMLからPHPコードを�
 
 ### [tasuku43/har2sequence](https://github.com/tasuku43/har2sequence)
 
-![GitHub forks](https://img.shields.io/github/stars/tasuku43/har2sequence)
-![GitHub forks](https://img.shields.io/github/forks/tasuku43/har2sequence)
+![GitHub stars](https://img.shields.io/github/stars/tasuku43/har2sequence?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/tasuku43/har2sequence?style=flat-square)
 
 > `har2sequence` is a tool designed to convert HTTP Archive (HAR) files into sequence diagrams. This project aims to help visualize HTTP interactions by generating sequence diagrams based on the information contained in HAR files.
 

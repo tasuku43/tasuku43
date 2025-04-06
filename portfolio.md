@@ -42,7 +42,7 @@ Chatworkの11年もののPHPコードベースにPHPStanを導入し、型エラ
 - **紹介記事**: [[PHP]コードからmermaidjsのクラス図を自動生成するツールを作りました](https://zenn.dev/tasteck/articles/41e0fbd5f6888f)
 <br>
 
-このツールは、以下の外部プロジェクトで利用されています（※筆者は当該プロジェクトの開発には関与していません）：  
+このツールは、以下の外部プロジェクトのREADMEに掲載されているクラス図の生成に使用された実績があります（※当該プロジェクトの開発には関与していません）：  
 > [MyIntervals/PHP-CSS-Parser](https://github.com/MyIntervals/PHP-CSS-Parser)  
 > A Parser for CSS Files written in PHP. Allows extraction of CSS files into a data structure, manipulation of said structure and output as (optimized) CSS.
 

@@ -38,11 +38,15 @@ Chatworkの11年もののPHPコードベースにPHPStanを導入し、型エラ
 > Generate Mermaid-js class diagram from php code.  
 > This tool focuses on the relationships between classes and omits the details of class internals at this stage.
 
-PHPコードからMermaid.jsのクラス図を生成するツール。自身の関わらない外部プロジェクトにも活用例あり。  
-  
 - **使用言語**: PHP  
 - **紹介記事**: [[PHP]コードからmermaidjsのクラス図を自動生成するツールを作りました](https://zenn.dev/tasteck/articles/41e0fbd5f6888f)
-<br><br>
+<br>
+
+このツールは、以下の外部プロジェクトで利用されています（※筆者は当該プロジェクトの開発には関与していません）：  
+> [MyIntervals/PHP-CSS-Parser](https://github.com/MyIntervals/PHP-CSS-Parser)  
+> A Parser for CSS Files written in PHP. Allows extraction of CSS files into a data structure, manipulation of said structure and output as (optimized) CSS.
+
+<br>
 
 ### [tasuku43/puml-parser-php](https://github.com/tasuku43/puml-parser-php)
 
@@ -78,7 +82,6 @@ PlantUMLからASTを構築するライブラリ。PlantUMLからPHPコードを�
 ![GitHub forks](https://img.shields.io/github/forks/tasuku43/har2sequence?style=flat-square)
 
 > `har2sequence` is a tool designed to convert HTTP Archive (HAR) files into sequence diagrams. This project aims to help visualize HTTP interactions by generating sequence diagrams based on the information contained in HAR files.
-
 HTTPアーカイブ（HAR）ファイルからMermaid.jsのシーケンス図を生成するツール。OIDCを用いた認証フローの理解を支援する目的で開発。
   
 - **使用言語**: Go  

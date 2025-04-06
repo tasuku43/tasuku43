@@ -35,6 +35,8 @@ Chatworkの11年もののPHPコードベースにPHPStanを導入し、型エラ
 ![GitHub forks](https://img.shields.io/github/forks/tasuku43/php-mermaid-class-diagram?style=flat-square)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/tasuku43/mermaid-class-diagram?style=flat-square)
 
+PHPコードからMermaid.jsのクラス図を生成するツール。
+
 > Generate Mermaid-js class diagram from php code.  
 > This tool focuses on the relationships between classes and omits the details of class internals at this stage.
 

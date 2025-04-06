@@ -31,6 +31,9 @@ Chatworkの11年もののPHPコードベースにPHPStanを導入し、型エラ
 
 ### [tasuku43/php-mermaid-class-diagram](https://github.com/tasuku43/php-mermaid-class-diagram)
 
+![GitHub forks](https://img.shields.io/github/stars/tasuku43/php-mermaid-class-diagram)
+![GitHub forks](https://img.shields.io/github/forks/tasuku43/php-mermaid-class-diagram)
+
 > Generate Mermaid-js class diagram from php code.  
 > This tool focuses on the relationships between classes and omits the details of class internals at this stage.
 
@@ -42,6 +45,9 @@ PHPコードからMermaid.jsのクラス図を生成するツール。自身の�
 
 ### [tasuku43/puml-parser-php](https://github.com/tasuku43/puml-parser-php)
 
+![GitHub forks](https://img.shields.io/github/stars/tasuku43/puml-parser-php)
+![GitHub forks](https://img.shields.io/github/forks/tasuku43/puml-parser-php)
+
 > This package builds AST of class definitions from plantuml files. This package works only with php.
 
 PlantUMLからASTを構築するライブラリ。PlantUMLからPHPコードを生成するツールの基盤として開発。  
@@ -52,6 +58,9 @@ PlantUMLからASTを構築するライブラリ。PlantUMLからPHPコードを�
 
 ### [tasuku43/dependency-analyzer](https://github.com/tasuku43/dependency-analyzer)
 
+![GitHub forks](https://img.shields.io/github/stars/tasuku43/dependency-analyzer)
+![GitHub forks](https://img.shields.io/github/forks/tasuku43/dependency-analyzer)
+
 > Analyze dependencies on specific classes.We hope this will be useful for major version upgrades of dependent libraries. For example, if you know that there is a disruptive change in a particular class, you can immediately see which classes in your project are affected. Combined with a library upgrade tool such as dependebot, it is also possible to comment the affected classes in the generated PR.
 
 特定のクラスや名前空間に依存するクラスを一覧表示するツール。ライブラリのメジャーバージョンアップ時などに影響を受けるクラスを特定する際に役立つ事を想定。
@@ -61,6 +70,9 @@ PlantUMLからASTを構築するライブラリ。PlantUMLからPHPコードを�
 <br><br>
 
 ### [tasuku43/har2sequence](https://github.com/tasuku43/har2sequence)
+
+![GitHub forks](https://img.shields.io/github/stars/tasuku43/har2sequence)
+![GitHub forks](https://img.shields.io/github/forks/tasuku43/har2sequence)
 
 > `har2sequence` is a tool designed to convert HTTP Archive (HAR) files into sequence diagrams. This project aims to help visualize HTTP interactions by generating sequence diagrams based on the information contained in HAR files.
 

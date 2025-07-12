@@ -4,24 +4,35 @@
 > 職務経歴やスキルの概要については [resume.md](./resume.md) にてご紹介しています。  
 
 ## 🎤 登壇実績
-### 🎙 PHP Conference Japan 2024  
+
+### 🎙 [技術的負債への向き合い PHP編｜10年越えプロダクトを提供する3社が語ります！](https://codmon.connpass.com/event/347561/)
+#### **タイトル**: 
+既存の開発資産を活かしながら、 《新規開発コスト抑制》と《開発体験向上》 を両立する拡張アーキテクチャ事例
+
+#### **概要**:  
+
+既存のPHPベースの独自Webフレームワークを拡張する事で、新規開発コストの削減と開発者体験の向上を両立させたアーキテクチャ拡張事例を紹介。具体的には、PSR準拠化やテスト基盤整備を通じて、保守性と開発効率を改善した取り組みをお伝えしました。
+
+#### 📎 リンク：  
+- [イベントページ](https://codmon.connpass.com/event/347561/)  
+- [スライド](https://speakerdeck.com/kubell_hr/250508-yamashita) 
+
+### 🎙 [PHP Conference Japan 2024](https://phpcon.php.gr.jp/2024/)  
 #### **タイトル**: Xdebug Profileを使ったCIのボトルネック解析  
 #### **概要**:  
 多くのテストケースを回すCI環境において、わずかな処理遅延が全体のパフォーマンスに与える影響を可視化するため、Xdebug Profileを用いたメソッド単位のパフォーマンス分析手法を紹介。PHPUnitの実行中に頻出するボトルネックの特定方法を解説しました。
 
 #### 📎 リンク：  
-- [イベントページ](https://phpcon.php.gr.jp/2024/)  
 - [スライド](https://speakerdeck.com/tasuku43/php-conference-japan-2024)
 
 <br>
 
-### 🎙 PHP Conference Japan 2022  
+### 🎙 [PHP Conference Japan 2022](https://phpcon.php.gr.jp/2022/)  
 #### **タイトル**: リリースして11年経過したPHPアプリケーションにPHPStanを導入した  
 #### **概要**:  
 Chatworkの11年もののPHPコードベースにPHPStanを導入し、型エラーの早期検出やCIの品質向上に取り組んだ事例を紹介。導入の背景から障害の乗り越え方、開発チームへの定着を図る工夫、導入によって得られた成果までを実体験として共有しました。
 
 #### 📎 リンク：  
-- [イベントページ](https://phpcon.php.gr.jp/2022/)  
 - [スライド](https://speakerdeck.com/tasuku43/php-conference-japan-2022)  
 - [YouTube](https://www.youtube.com/watch?v=NTw0gxIAYNw)
 

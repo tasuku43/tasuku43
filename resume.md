@@ -15,6 +15,42 @@
 
 <br>
 
+## スキルサマリー
+
+### プログラミング言語
+
+- PHP（5年）
+    - バージョンアップ対応をはじめ、コード品質向上のために静的解析ツールの導入、テスト基盤の構築、CI整備などの施策を主導。独自フレームワークの拡張を通じて、PSR準拠化や Controller 単位でのテスト基盤を整備。また、個人開発として複数の OSS ライブラリを公開
+- TypeScript（2年）
+    - Vue.js、React、Next.js を用いたシングルページアプリケーション（SPA）の開発に従事
+- Go / Scala（非業務）
+    - ネットワークスタック実装など学習用途
+
+### クラウド・インフラ
+
+- AWS：日常的に使用していたサービスは以下の通りです。
+    - Lambda, ECR, DynamoDB, Billing and Cost Management, CloudFront, SQS, S3, Athena
+- Kubernetes
+    - kubectl を用いたクラスタ調査・運用に加え、etcd／kube-apiserver／kube-proxy など Kubernetes の基礎アーキテクチャを理解
+    - Helmfile＋Argo CD を用いた GitOps 運用
+- Terraform
+    - 既存リソースのTerraform化。Helmfile を用いた Atlantis サーバーの運用や、Conftest によるポリシーチェック追加など、運用改善にも対応。
+
+### CI/CD・自動化ツール
+
+- GitHub Actions
+    - アーキテクチャ別ランナーによるDockerイメージのマルチアーキテクチャビルドの導入や、CI/CDパイプラインの改善を主導。
+
+### Agentic Coding
+
+- Claude Code / Roo Code / GitHub Copilot
+
+### 監視
+
+- DataDog
+
+<br>
+
 ## 📝 職務要約
 
 2019年にソフトウェアエンジニアとしてキャリアをスタートし、PHPを用いたバックエンド開発から始めて、段階的に技術領域を拡大してきました。PHPでは静的解析ツールの導入を主導し、11年目の大規模コードベースの品質向上に貢献しました。
@@ -82,33 +118,6 @@
 ### NECフィールディング株式会社: 2016年4月 ~ 2019年11月
 
 カスタマーエンジニアとして、サーバやPCなどのハードウェア修理作業を担当
-
-<br>
-
-## 🛠️ スキル
-
-### プログラミング言語
-
-- PHP（5年）：バージョンアップ対応をはじめ、コード品質向上のために静的解析ツールの導入、テスト基盤の構築、CI整備などの施策を主導。独自フレームワークの拡張を通じて、PSR準拠化や Controller 単位でのテスト基盤を整備。また、個人開発として複数の OSS ライブラリを公開
-- **TypeScript（2年）**：Vue.js、React、Next.js を用いたシングルページアプリケーション（SPA）の開発に従事
-- Go（非業務）: 学習の一環として、有名OSSのクローンやDNSフォワーダ、リバースプロキシなどを実装。
-- Scala（非業務）: 学習の一環として、PHPで実装したPlantUMLパーサーをScalaで再実装。
-
-### クラウド・インフラ
-
-- AWS：日常的に使用していたサービスは以下の通りです。
-    - Lambda, ECR, DynamoDB, Billing and Cost Management, CloudFront, SQS, S3, Athena
-- Kubernetes：kubectl を用いたクラスタ調査・運用に加え、etcd／kube-apiserver／kube-proxy など Kubernetes の基礎アーキテクチャを理解。Helmfile＋Argo CD を用いた GitOps 運用も実践。
-- Terraform： Atlantis ＋ GitHub PR フローを保守・拡張。EKS上の Atlantis では VPN 経由で Plan 結果を閲覧できるようセキュリティグループを最適化するなど、運用改善も担当。
-
-### CI/CD・自動化ツール
-
-- CircleCI
-- GitHub Actions
-
-### 監視
-
-- DataDog
 
 <br>
 

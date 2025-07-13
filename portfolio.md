@@ -18,7 +18,8 @@
 - [スライド](https://speakerdeck.com/kubell_hr/250508-yamashita) 
 
 ### 🎙 [PHP Conference Japan 2024](https://phpcon.php.gr.jp/2024/)  
-#### **タイトル**: Xdebug Profileを使ったCIのボトルネック解析  
+#### **タイトル**: 
+Xdebug Profileを使ったCIのボトルネック解析  
 #### **概要**:  
 多くのテストケースを回すCI環境において、わずかな処理遅延が全体のパフォーマンスに与える影響を可視化するため、Xdebug Profileを用いたメソッド単位のパフォーマンス分析手法を紹介。PHPUnitの実行中に頻出するボトルネックの特定方法を解説しました。
 

@@ -51,7 +51,7 @@
 
 - EKSクラスターバージョンアップと約40アプリケーションの移行統括
 - GitHub Actions の改善でDockerイメージのビルド時間を約50%削減
-- Performance Insights / Datadog / CloudWatch を用いたECDB負荷改善を主導し、Writer CPU Peak を 69.9% → 54.5%、CommitLatency Max を 8.01ms → 4.02ms に改善
+- Aurora RDSのWriter負荷改善を主導し、CPU負荷とコミットレイテンシを改善
 - ArgoCDを基盤としたGitOpsライクなメンテナンスIn/Out自動化の仕組みを設計
 - バリューストリームマッピングを活用した開発プロセス改善
 - Kubernetesデプロイメントの再設計による可用性向上
@@ -71,7 +71,7 @@
 - 主な実績
     - EKSバージョンアップに伴い新規クラスターを構築し、約40アプリケーションの移行スケジュール調整・統括をリード
     - GitHub Actions のマルチアーキテクチャビルドを刷新し、QEMU エミュレーションを廃止して アーキテクチャ別ランナーによる並列ビルド＋ manifest 統合 を導入。これによりコンテナイメージのビルド時間を 約 50 % 削減
-    - Performance Insights / Datadog / CloudWatch を用いたECDB Writer負荷の調査と改善効果検証を主導し、開発チームと連携して Writer CPU Peak を 69.9% → 54.5%、CommitLatency Max を 8.01ms → 4.02ms に改善
+    - Aurora RDSのWriter負荷の調査と改善効果検証を主導し、開発チームと連携して CPU負荷およびコミットレイテンシを改善
     - ArgoCDを基盤とした、GitOpsライクなメンテナンスIn/Out実施を自動化する仕組みを設計
 
 #### 認証チーム (2023年6月 ~ 2025年3月)

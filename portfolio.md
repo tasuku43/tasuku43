@@ -41,6 +41,40 @@ Chatworkの11年もののPHPコードベースにPHPStanを導入し、型エラ
 
 ## 👨‍💻 OSS活動
 
+### 現在継続的にメンテしているOSS
+
+### [tasuku43/kra](https://github.com/tasuku43/kra)
+
+![GitHub stars](https://img.shields.io/github/stars/tasuku43/kra?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/tasuku43/kra?style=flat-square)
+
+> Ticket-driven local workspaces with per-task Git worktrees and optional cmux workspace mapping.
+
+チケット駆動のローカル開発ワークスペース運用を支援するCLI。タスクごとに分離したワークスペースを作成し、必要なリポジトリだけをGit worktreeで接続しながら作業を進められます。完了時は `archive/` に安全に退避でき、`cmux` と組み合わせることで ticket / workspace / terminal workspace を揃えた運用を実現します。
+
+- **使用言語**: Go
+- **主な特徴**: タスク単位のワークスペース管理、Git worktree の選択的な接続、`archive/` を前提にしたライフサイクル運用、`cmux` 連携
+- **紹介記事**: [チケット／作業場／cmuxを1:1対応させて、並行タスクを迷わない状態にするCLI「kra」](https://zenn.dev/tasteck/articles/59f56f67aa5584)
+<br><br>
+
+### [tasuku43/gion](https://github.com/tasuku43/gion)
+
+![GitHub stars](https://img.shields.io/github/stars/tasuku43/gion?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/tasuku43/gion?style=flat-square)
+
+> Task workspaces as code, with guardrails. Built on Git worktrees: define a YAML inventory, then plan/apply to reconcile safely.
+
+Git worktree ベースの task workspaces as code ツール。YAML マニフェストを正本にして `plan/apply` で差分を確認しながら、ワークスペースの一括作成・削除を安全に扱えます。PRレビュー、issue調査、再現環境の切り出しなど、複数リポジトリにまたがる作業を宣言的に管理できるようにしています。
+
+- **使用言語**: Go
+- **主な特徴**: YAML による宣言的管理、差分確認を前提にした一括作成・削除、削除リスクの可視化、GitHub PR / issue 起点のワークスペース作成
+- **紹介記事**: [Git worktreeを宣言的に管理するCLI「gion」を作りました](https://zenn.dev/tasteck/articles/50ecb1926a26a9)
+<br><br>
+
+### 過去に公開したOSS
+
+現在は主に `kra` と `gion` のメンテナンスに注力しており、以下はこれまでに公開してきたOSSです。
+
 ### [tasuku43/php-mermaid-class-diagram](https://github.com/tasuku43/php-mermaid-class-diagram)
 
 ![GitHub stars](https://img.shields.io/github/stars/tasuku43/php-mermaid-class-diagram?style=flat-square)
@@ -101,65 +135,3 @@ HTTPアーカイブ（HAR）ファイルからMermaid.jsのシーケンス図を
 - **使用言語**: Go  
 - **紹介記事**: [HARファイルをシーケンス図に変換するツールを作成しました](https://zenn.dev/tasteck/articles/cf8ee8a532ebaa)
 <br><br>
-
----
-
-## 🔎 学習プロジェクト
-
-### 💻 低レイヤー技術への探求
-
-#### [build-own-network-stack-go](https://github.com/tasuku43/build-own-network-stack-go)  
-
-**概要**: TCP/IPネットワークスタックをGoで実装するプロジェクト。  
-**目的**: ネットワークプロトコルの動作原理を深く理解するため。OSが抽象化しているネットワークスタックが何を抽象化しているのかの理解を深めるため  
-**学習ポイント**:
-- TCP/IPプロトコルの動作原理(ソケットの作成、バインド、リッスン、接続受け入れの一連の流れ)
-- Goのネットワークライブラリの使い方
-
-<br>
-
-#### [pal](https://github.com/tasuku43/pal)
-
-**概要**: OCI仕様に準拠したコンテナランタイムの自作実装  
-**目的**: コンテナ技術の基盤となる概念と実装詳細を理解する。実装を通してコンテナの支えるLinuxの技術について理解を深めるため。  
-**学習ポイント**:
-- OCIバンドルとは何か・構成・役割
-- コンテナを支えるLinuxの技術
-
-**実装済みの機能**
-- OCIバンドルの読み込み・config.jsonのパース
-- ファイルシステムの隔離(mount namespace と pivot_root を利用した bundle/rootfs のルートファイルシステム化)
-- プロセスIDの隔離
-
-<br>
-
-#### [dns-hierarchy-docker](https://github.com/tasuku43/dns-hierarchy-docker)
-
-> A complete DNS server hierarchy running in Docker, featuring a root name server, TLD name server, second-level domain server, third-level domain server, a full resolver, and a client for DNS queries.
-
-**概要**: DNSの完全な階層構造をDocker上に再現したプロジェクト  
-**目的**: DNSの名前解決の仕組みを実践的に理解する  
-**学習ポイント**:
-- ルートサーバー、TLDサーバー、各レベルの権威DNSサーバーの連携
-- DNSの名前解決プロセスの理解(ゾーンの概念、リゾルバーの役割)
-
-<br>
-
-### 🧮 データ構造とアルゴリズム
-
-### [tasuku43/learn-ds-go](https://github.com/tasuku43/learn-ds-go)
-
-> learn-ds-go is a personal project focused on implementing various data structures using the Go programming language. This repository serves as a platform for my own learning and exploration, and is not intended for use as a library in other projects.
-
-**概要**: 様々なデータ構造をGoで実装するプロジェクト  
-**目的**: アルゴリズムとデータ構造の理解を深めるため  
-**学習ポイント**:  
-- 基本的なデータ構造と、アルゴリズムの違いによる性能差をベンチマークテストを通して理解する
-
-**現時点での実装済みのデータ構造(進行中)**  
-- Hash Table
-    - Separate Chaining
-    - Open Addressing
-    - Robin Hood Hashing
-- Stack
-- Queue

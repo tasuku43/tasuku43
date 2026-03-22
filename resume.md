@@ -4,9 +4,9 @@
 
 - 氏名: 山下 祐
 - SNS:
-  - [GitHub](https://github.com/tasuku43)（OSS / 学習用プロジェクト）
+  - [GitHub](https://github.com/tasuku43)（継続的にメンテしている OSS / 公開成果物）
   - [X](https://x.com/task2021)
-  - [Zenn](https://zenn.dev/tasteck)（技術記事執筆）
+  - [Zenn](https://zenn.dev/tasteck)（OSS・開発改善に関する技術記事執筆）
 
 ## スキルサマリー
 
@@ -17,8 +17,9 @@
     - 個人開発として複数の OSS ライブラリを公開
 - TypeScript（2年）
     - Vue.js／React／Next.jsを用いたSPA開発
-- Go / Scala（非業務）
-    - ネットワークスタックなどの低レイヤ実装を中心に学習・検証
+- Go / Scala（主に業務外）
+    - Goで開発支援CLIやワークスペース管理ツールを継続的に開発
+    - 低レイヤ実装の学習・検証を通じて、コンテナ・ネットワーク・OSまわりの理解を補強
 
 #### クラウド・インフラ
 - AWS（Lambda, DynamoDB, CloudFront, S3, ECR など）
@@ -38,18 +39,20 @@
 
 ## 職務要約
 
-2019年にソフトウェアエンジニアとしてキャリアをスタートし、PHPを用いたバックエンド開発から始め、フロントエンド開発（TypeScript／React／Next.js）、インフラ運用（AWS、Datadog）、そして現在のSRE業務へと技術領域を広げてきました。PHPでは静的解析ツールの導入を主導し、11年目の大規模コードベースの品質向上に貢献しました。
+2019年にソフトウェアエンジニアとしてキャリアをスタートし、PHPを用いたバックエンド開発から、TypeScript／React／Next.js を用いたフロントエンド開発、AWS や Datadog を用いた運用まで、担当領域を広げてきました。PHPでは静的解析ツールの導入を主導し、11年目の大規模コードベースの品質向上に貢献しました。
 
-その後はフルサイクル開発チームの一員として、TypeScript／React／Next.jsを用いたフロントエンド開発を経験。AWS（CloudFront、API Gateway など）を活用したインフラ運用とDatadogによる監視体制の構築も担当しました。
+その後は職能横断型チームで、要件定義から設計、実装、運用までを一貫して担当し、開発プロセス改善、Kubernetes 上の構成見直し、テスト基盤整備などを推進してきました。
 
-現在はSREグループに所属し、Helmfile・Helm・ArgoCDを駆使したEKS基盤の運用とCI/CDパイプライン改善に従事しています。
+現在はSREグループに所属し、Helmfile・Helm・ArgoCDを活用したEKS基盤の運用、CI/CDおよびIaCワークフロー改善に従事しています。
 
-今後はクラウドネイティブ技術の専門性を深め、Platform SREとして技術・プロセス両面から組織の継続的な改善に貢献していきたいと考えています。
+強みは、開発や運用の流れの中にある詰まりを見つけ、基盤整備や運用改善として具体化し、継続的な改善につなげることです。今後は、個別改善にとどまらず、改善の効果が継続して効き続ける仕組みづくりにより強く関わっていきたいと考えています。
 
 ## 主な実績ハイライト
 
 - EKSクラスターバージョンアップと約40アプリケーションの移行統括
 - GitHub Actions の改善でDockerイメージのビルド時間を約50%削減
+- Performance Insights / Datadog / CloudWatch を用いたECDB負荷改善を主導し、Writer CPU Peak を 69.9% → 54.5%、CommitLatency Max を 8.01ms → 4.02ms に改善
+- ArgoCDを基盤としたGitOpsライクなメンテナンスIn/Out自動化の仕組みを設計
 - バリューストリームマッピングを活用した開発プロセス改善
 - Kubernetesデプロイメントの再設計による可用性向上
 - PHPアプリケーションへの静的解析導入・品質改善
@@ -63,9 +66,12 @@
 - 役割
 	- Helmfile・Helm・ArgoCDを活用したEKS基盤の運用
 	- GitHub Actions・Atlantis等を用いたCI/CDおよびIaCワークフローの改善
+	- 重要案件の進行状況、依存関係、リスクの把握と、必要に応じた調整・進行支援
+	- AI活用基盤やスキル共有の仕組みづくりを通じた開発支援
 - 主な実績
     - EKSバージョンアップに伴い新規クラスターを構築し、約40アプリケーションの移行スケジュール調整・統括をリード
     - GitHub Actions のマルチアーキテクチャビルドを刷新し、QEMU エミュレーションを廃止して アーキテクチャ別ランナーによる並列ビルド＋ manifest 統合 を導入。これによりコンテナイメージのビルド時間を 約 50 % 削減
+    - Performance Insights / Datadog / CloudWatch を用いたECDB Writer負荷の調査と改善効果検証を主導し、開発チームと連携して Writer CPU Peak を 69.9% → 54.5%、CommitLatency Max を 8.01ms → 4.02ms に改善
     - ArgoCDを基盤とした、GitOpsライクなメンテナンスIn/Out実施を自動化する仕組みを設計
 
 #### 認証チーム (2023年6月 ~ 2025年3月)
@@ -111,9 +117,14 @@
 - [Xdebug ProfileによるCIパフォーマンス改善のためのボトルネック分析 - Speaker Deck](https://speakerdeck.com/tasuku43/php-conference-japan-2024)
 - [リリースして11年経過したPHPアプリケーションにPHPStanを導入した - Speaker Deck](https://speakerdeck.com/tasuku43/php-conference-japan-2022)
 ### 会社公式ブログ
+- [スポットインスタンスの可用性をSpot Placement Scoreで事前評価する - kubell Creator's Note](https://creators-note.chatwork.com/entry/2026/01/07/080000)
+- [Claude Code のためのコンテキスト設計で実現した Helmfile README の大量生成 - kubell Creator's Note](https://creators-note.chatwork.com/entry/2025/12/22/000000_1)
+- [SREグループにおけるJiraタスク可視化の取り組み - kubell Creator's Note](https://creators-note.chatwork.com/entry/2025/09/09/115740)
 - [リリースして11年経過したPHPアプリケーションにPHPStanを導入した - kubell Creator's Note](https://creators-note.chatwork.com/entry/2022/05/24/084828)
 - [Datadog Workflow Automationを使って「当日」と「翌日」のオンコール当番をチャットツールに通知する - kubell Creator's Note](https://creators-note.chatwork.com/entry/2025/06/26/180650)
 ### 個人発信
+- [チケット／作業場／cmuxを1:1対応させて、並行タスクを迷わない状態にするCLI「kra」](https://zenn.dev/tasteck/articles/59f56f67aa5584)
+- [Git worktreeを宣言的に管理するCLI「gion」を作りました](https://zenn.dev/tasteck/articles/50ecb1926a26a9)
 - [[PHP]PlantUMLで定義されたクラス図からコードを自動生成するツールを作成しました](https://zenn.dev/tasteck/articles/e81cd61339dc69)
 - [[PHP]コードからmermaidjsのクラス図を自動生成するツールを作りました](https://zenn.dev/tasteck/articles/41e0fbd5f6888f)
 - [HARファイルをシーケンス図に変換するツールを作成しました](https://zenn.dev/tasteck/articles/cf8ee8a532ebaa)

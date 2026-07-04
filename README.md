@@ -2,11 +2,16 @@
   <img src="https://komarev.com/ghpvc/?username=tasuku43" />
 </div>
 
-# 👋 Hello, I'm Tasuku Yamashita
+# Hello, I'm Tasuku Yamashita
 
-**Software Engineer | Japan**
+**Software Engineer / SRE / Platform Engineer | Japan**
 
-I specialize in backend development with a strong foundation in PHP and have expanded my expertise to infrastructure and frontend technologies. Passionate about enhancing system reliability and development performance.
+開発・運用の流れにある詰まりを見つけ、改善を共通基盤、標準、ガードレール、運用ループとして残すことに関心があります。
+
+PHPバックエンド開発を土台に、現在はSREとしてEKS、GitOps、CI/CD、IaC、監視、開発者体験改善に取り組んでいます。個人ではGoで、Git worktreeを使った作業環境管理や、AIエージェント利用時の安全な開発ワークフローを支えるOSSを開発しています。
+
+- [職務経歴書](./resume.md)
+- [ポートフォリオ](./portfolio.md)
 
 ## 🛠️ Skills
 

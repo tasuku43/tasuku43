@@ -6,12 +6,12 @@
 
 **Software Engineer / SRE / Platform Engineer | Japan**
 
-開発・運用の流れにある詰まりを見つけ、改善を共通基盤、標準、ガードレール、運用ループとして残すことに関心があります。
+I focus on finding constraints in the flow of software development and operations, then turning improvements into shared platforms, standards, guardrails, and operational feedback loops.
 
-PHPバックエンド開発を土台に、現在はSREとしてEKS、GitOps、CI/CD、IaC、監視、開発者体験改善に取り組んでいます。個人ではGoで、Git worktreeを使った作業環境管理や、AIエージェント利用時の安全な開発ワークフローを支えるOSSを開発しています。
+My foundation is PHP backend development. I currently work as an SRE on EKS, GitOps, CI/CD, IaC, observability, and developer experience. In my personal OSS work, I build Go-based tools for managing Git worktree-driven workspaces and making AI-agent-assisted development workflows safer.
 
-- [職務経歴書](./resume.md)
-- [ポートフォリオ](./portfolio.md)
+- [Resume](./resume.md)
+- [Portfolio](./portfolio.md)
 
 ## 🛠️ Skills
 

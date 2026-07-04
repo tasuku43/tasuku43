@@ -32,7 +32,7 @@
     - CI/CDパイプラインの効率化・改善を主導
 
 #### AI活用・開発支援
-- Claude Code / Roo Code / GitHub Copilot
+- Codex / Claude Code / Roo Code / GitHub Copilot
 
 #### 監視
 - DataDog（メトリクス・ログ監視、ダッシュボード構築）
